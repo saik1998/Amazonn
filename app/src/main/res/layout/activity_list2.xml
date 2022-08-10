@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListActivity2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#C3F3C3">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:background="#FFFFFF"
+                    android:weightSum="2">
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+
+                        android:background="#FFE605"
+                        android:text=""
+                        android:layout_weight="1"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:background="#FFF597"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="180dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            app:cardCornerRadius="15dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Prime"
+                                android:textColor="@color/black"
+                                android:textSize="20dp"
+                                android:layout_marginLeft="10sp"/>
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="180dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="15dp"
+                            app:cardCornerRadius="15dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Deals and Savings"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                android:layout_marginLeft="10sp"/>
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="180dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            app:cardCornerRadius="15dp">
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="180dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="15dp"
+                            app:cardCornerRadius="15dp">
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="180dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            app:cardCornerRadius="15dp">
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="180dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="15dp"
+                            app:cardCornerRadius="15dp">
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="180dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            app:cardCornerRadius="15dp">
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="180dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="15dp"
+                            app:cardCornerRadius="15dp">
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="180dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            app:cardCornerRadius="15dp">
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="180dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="15dp"
+                            app:cardCornerRadius="15dp">
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="180dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="10dp"
+                            app:cardCornerRadius="15dp">
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="180dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="15dp"
+                            app:cardCornerRadius="15dp">
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
